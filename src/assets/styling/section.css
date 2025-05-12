@@ -1,0 +1,49 @@
+/* Base styles */
+section.resume-section {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    max-width: 75rem;
+}
+
+/* Remove top padding for first section on mobile */
+section.resume-section:first-child {
+    padding-top: 2rem;
+}
+
+@media (max-width: 750px) {
+    section.resume-section {
+        padding: 8rem 1rem 5rem 1rem; /* Added more top padding for mobile */
+        font-size: 0.9rem;
+    }
+}
+
+/* Content styles */
+section.resume-section .resume-section-content {
+    width: 100%;
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 768px) {
+    section.resume-section {
+        min-height: 100vh;
+        padding: 6rem 1rem 5rem 1rem; /* Slightly reduced top padding for tablets */
+    }
+    
+    /* Reset first section padding for tablets and up */
+    section.resume-section:first-child {
+        padding-top: 6rem;
+    }
+}
+
+/* Large screens (desktops) */
+@media (min-width: 992px) {
+    section.resume-section {
+        padding: 5rem 0; /* Original desktop padding */
+    }
+    
+    /* Reset first section padding for desktop */
+    section.resume-section:first-child {
+        padding-top: 5rem;
+    }
+}
