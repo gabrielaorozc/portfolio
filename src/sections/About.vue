@@ -42,7 +42,7 @@
       </div>
       <div class="social-icons">
         <a class="social-icon" href="https://www.linkedin.com/in/gabriela-orozco/"><i class="fab fa-linkedin-in"></i></a>
-        <!-- <a class="social-icon" href="https://github.com/gabrielaorozc"><i class="fab fa-github"></i></a> -->
+        <a class="social-icon" href="https://github.com/gabrielaorozc"><i class="fab fa-github"></i></a>
       </div>
     </div>
   </template>
