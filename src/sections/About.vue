@@ -12,7 +12,7 @@
         <span class="secondary-color">Orozco</span>
       </h1>
       <div class="subheading mb-5">
-        Tacoma, Washington · (253) 232-2775 ·
+        Tacoma, Washington · 
         <a href="mailto:gaby@8bitduck.com">gaby@8bitduck.com</a>
       </div>
       
